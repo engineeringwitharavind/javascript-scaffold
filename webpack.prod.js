@@ -23,13 +23,8 @@ module.exports = {
         loader: 'html-loader',
       },
       {
-        test: /\.(scss|css)$/,
-        use: [
-          MinCSSExtractPlugin.loader,
-          'style-loader',
-          'css-loader',
-          'sass-loader',
-        ],
+        test: /\.css$/,
+        use: [MinCSSExtractPlugin.loader, 'style-loader', 'css-loader'],
       },
       {
         test: /\.js$/,

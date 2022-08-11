@@ -23,8 +23,8 @@ module.exports = {
         loader: 'html-loader',
       },
       {
-        test: /\.(scss|css)$/,
-        use: ['style-loader', 'css-loader', 'sass-loader'],
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
       },
       {
         test: /\.(svg|png|jpg|gif)$/,
