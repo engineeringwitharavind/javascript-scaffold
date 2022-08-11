@@ -2,7 +2,7 @@
 
 [![package-manager](https://img.shields.io/badge/yarn-000000?style=flat&logo=yarn)](https://yarnpkg.com/)
 [![templating](https://img.shields.io/badge/markup-000000?style=flat&logo=html5)](https://dev.w3.org/html5/html-author/)
-[![styling](https://img.shields.io/badge/css-000000?style=flat&logo=css)](https://www.w3.org/Style/CSS/specs.en.html)
+[![styling](https://img.shields.io/badge/css-000000?style=flat&logo=css3)](https://www.w3.org/Style/CSS/specs.en.html)
 [![javascript](https://img.shields.io/badge/javascript-000000?style=flat&logo=javascript)](https://262.ecma-international.org/5.1/)
 [![testing](https://img.shields.io/badge/jest-000000?style=flat&logo=jest)](https://jestjs.io/)
 [![build](https://img.shields.io/badge/webpack-000000?style=flat&logo=webpack)](https://webpack.js.org/)
@@ -17,13 +17,13 @@
 
 - Added `nodemon` that helps JavaScript/Node.js applications by automatically restarting the application when file changes are detected.
 
-- Added `prettierrc`, `.babelrc`, `.eslintrc`, and `.eslintignore` config files.
+- Added Prettier, Babel, and ESLint configs.
 
   - **Prettier** for neat code formatting.
   - **Babel** for transpiling our code to backward compatible version of JavaScript.
   - **ESLint** for identifying, reporting, formatting on patterns found on ECMAScript/JavaScript code making our code more consistent and avoiding bugs.
 
-- Added `webpack.config` for `dev` and `prod` build. Add the below snippet in your `package.json` file.
+- Added Webpack config for `dev` and `prod` build. Add the below snippet in your `package.json` file.
 
 ```json
 "scripts": {
