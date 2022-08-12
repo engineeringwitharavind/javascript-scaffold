@@ -1,21 +1,20 @@
 #### Webpack Scaffold for JavaScript applications
 
+Nowadays, most companies ask Frontend Engineers to use HTML, CSS, and Vanilla JavaScript for Frontend Machine coding rounds. This boilerplate is just for that. Customize it to fit your needs.
+
 [![package-manager](https://img.shields.io/badge/yarn-000000?style=flat&logo=yarn)](https://yarnpkg.com/)
 [![templating](https://img.shields.io/badge/markup-000000?style=flat&logo=html5)](https://dev.w3.org/html5/html-author/)
 [![styling](https://img.shields.io/badge/css-000000?style=flat&logo=css3)](https://www.w3.org/Style/CSS/specs.en.html)
 [![javascript](https://img.shields.io/badge/javascript-000000?style=flat&logo=javascript)](https://262.ecma-international.org/5.1/)
-[![testing](https://img.shields.io/badge/jest-000000?style=flat&logo=jest)](https://jestjs.io/)
 [![build](https://img.shields.io/badge/webpack-000000?style=flat&logo=webpack)](https://webpack.js.org/)
 [![linting](https://img.shields.io/badge/eslint-000000?style=flat&logo=eslint)](https://eslint.org/)
 [![transpiling](https://img.shields.io/badge/babel-000000?style=flat&logo=babel)](https://eslint.org/)
 [![code-formatting](https://img.shields.io/badge/prettier-000000?style=flat&logo=prettier)](https://prettier.io/)
 [![powered-by](https://img.shields.io/badge/git-000000?style=flat&logo=git)](https://git-scm.com/)
 
-- Added initial HTML template. Application gets loaded from `src/js/index.js`.
+- Added initial HTML template. Application gets loaded from `src/index.js`.
 
-- Added `src/css/_reset.css` with **CSS resets** keeping **Accessibility** and **best practices** in mind. Modify your component's CSS in `src/css/component.css`.
-
-- Added `nodemon` that helps JavaScript/Node.js applications by automatically restarting the application when file changes are detected.
+- Added `src/styles/_reset.css` with [Josh's custom CSS reset](https://www.joshwcomeau.com/css/custom-css-reset/) keeping **Accessibility** and **best practices** in place. Modify your application's CSS in `src/styles/main.css`.
 
 - Added Prettier, Babel, and ESLint configs.
 

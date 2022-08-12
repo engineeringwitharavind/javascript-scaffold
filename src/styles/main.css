@@ -1,7 +1,7 @@
 @import './_reset.css';
 
 body {
-  font-family: 'Comic Sans MS', sans-serif;
+  font-family: 'Gill Sans MT', sans-serif;
   background: hsl(212deg, 32%, 8%);
   color: hsl(230deg, 100%, 67%);
 }

@@ -1,4 +1,4 @@
-import '../css/component.css';
+import './styles/main.css';
 
 export const app = () => {
   console.log('🤩 Application loaded 🚀');
